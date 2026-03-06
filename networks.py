@@ -18,7 +18,7 @@ class Attention(nn.Module):
         bs, query_length, embed_dim = x.shape
         Q = self.queryproj(x)
         K = self.keyproj(x)
-        V = self.keyproj(x)
+        V = self.valueproj(x)
 
         compatibility = self.norm_factor * torch.matmul(Q, K.transpose(1,2)).contiguous()
         mask = torch.eye(query_length, dtype=torch.bool).to(self.device)
