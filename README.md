@@ -1,5 +1,18 @@
 # MetaMTO: Learn where, what and how to transfer knowledge in Evolutionary Multitasking through Deep Reinforcement Learning
 
+## Citing MetaMTO
+
+MetaMTO is accepted by IEEE TEVC (IF=15.9, SCI Q1 Top). The PDF version of the paper is available [here](https://ieeexplore.ieee.org/document/11579408). If you find our work useful, please cite it in your publications or projects.
+
+```latex
+@article{zhan2026learning,
+  title={Learning where, what and how to transfer: A multi-role reinforcement learning approach for evolutionary multitasking},
+  author={Zhan, Jiajun and Ma, Zeyuan and Gong, Yue-Jiao and Tan, Kay Chen},
+  journal={IEEE Transactions on Evolutionary Computation},
+  year={2026},
+  publisher={IEEE}
+}
+```
 
 ## Requirements
 
